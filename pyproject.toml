@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 120
+
+[tool.mypy]
+# https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-exclude
+exclude = [
+    'venv'
+]
+ignore_errors = 'False'
+
+[tool.black]
+line-length = 120
