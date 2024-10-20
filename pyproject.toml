@@ -1,3 +1,6 @@
+[project]
+requires-python = ">= 3.12"
+
 [tool.ruff]
 line-length = 120
 
@@ -8,5 +11,3 @@ exclude = [
 ]
 ignore_errors = 'False'
 
-[tool.black]
-line-length = 120
